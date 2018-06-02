@@ -6,7 +6,8 @@
   "author": "Darin Im <darinim@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build frontend/index.js -d dist"
+    "build": "parcel build frontend/index.js -d dist",
+    "heroku-postbuild": "yarn run build"
   },
   "devDependencies": {
     "parcel-bundler": "^1.8.1"
